@@ -2,9 +2,6 @@
 
 Document field extraction with per-field calibrated confidence, routed to human review at a cost-optimal threshold.
 
-[![CI and deployment](https://github.com/SlateGitOrg/fieldextract/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SlateGitOrg/fieldextract/actions/workflows/ci.yml)
-[Live demo](https://slategitorg.github.io/fieldextract/)
-
 ![Field Extract desktop deployment](docs/assets/deployed-desktop.png)
 
 ## Why
@@ -41,7 +38,7 @@ Documents are split into a fit set and a held-out evaluation set. Calibrators ar
 Requires Python 3.11+. There are no dependencies to install.
 
 ```bash
-git clone https://github.com/SlateGitOrg/fieldextract.git
+git clone https://github.com/PranitaG14/fieldextract.git
 cd fieldextract
 python -m unittest discover -s tests -v   # 51 tests
 python -m src.demo                        # the full measured walkthrough
@@ -131,9 +128,3 @@ docs/             architecture notes and screenshots
 ## License
 
 MIT - see [LICENSE](LICENSE).
-
-## Maintainer
-
-Dev Bhatt maintains this project, bringing over six years of experience building automated data pipelines, controls and analytics. His work includes automating risk indicator tracking and reconciliation at scale, and improving operational workflows through AI-assisted automation.
-
-[LinkedIn](https://linkedin.com/in/dev-bhatt27) | [Email](mailto:devbhattwork27@gmail.com)
